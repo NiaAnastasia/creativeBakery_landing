@@ -1,16 +1,41 @@
-# Creative Bakery landing page
+# Creative Bakery Landing Page
 
-Implement landing page according to [Figma design](https://www.figma.com/file/dY3izAm0Vspsmra4lQWQIP/Bakerlab-FE-students?node-id=0%3A1) - Use BEM and SCSS
+A responsive landing page for a creative bakery, built pixel-perfect from a Figma mockup.
+The project showcases a modern bakery website with product listings and adaptive layout for all screen sizes.
 
-Technologies used:
+## Demo
+🔗 [Live Preview](https://NiaAnastasia.github.io/layout_creativeBakery/)
 
-For structuring the HTML document, the BEM methodology was applied.
+## Design Reference
+🖼 [Figma Mockup](https://www.figma.com/file/dY3izAm0Vspsmra4lQWQIP/Bakerlab-FE-students?node-id=0%3A1)
 
-For project build, Parsel was used.
+## Technologies Used
+- HTML, CSS/SASS
+- BEM methodology for HTML structure
+- Parcel for project build
+- Grid and Flexbox for layout
+- SASS mixins with media queries for responsive design
 
-Object positioning was done using Grid and Flex.
+## Getting Started
 
-SASS preprocessor was used. To ensure proper content display on devices with different screen resolutions, mixins with media queries were utilized.
+1. Clone the repo
+```
+git clone https://github.com/NiaAnastasia/layout_creativeBakery.git
+cd layout_creativeBakery
+```
 
+2. Install dependencies
+```
+npm install
+```
 
-  [DEMO LINK](https://NiaAnastasia.github.io/layout_creativeBakery/).
+3. Run the project locally
+```
+npm start
+```
+
+## Features
+- 🔥 Fully responsive design for all screen sizes
+- 🎨 Built pixel-perfect from Figma mockup
+- ⚡ BEM methodology for clean, scalable CSS
+
