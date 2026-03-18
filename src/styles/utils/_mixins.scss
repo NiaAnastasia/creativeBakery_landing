@@ -53,7 +53,7 @@
 }
 
 @mixin hover($propery, $toValue) {
-  transition: #{$propery} 0.3s;
+  transition: #{$propery} $transition-duration $transition-easing;
   &:hover {
     #{$propery}: $toValue;
   }

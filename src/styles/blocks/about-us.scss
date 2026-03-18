@@ -33,17 +33,17 @@
 
   @include on-mid-laptop {
     padding: 178px 44px 56px;
+
     &::before {
       top: 178px;
       left: 325px;
       width: 718px;
       height: 673px;
     }
+  }
 
-    @include on-big-laptop {
-      width: 1192px;
-      padding: 178px 124px 56px;
-    }
+  @include on-big-laptop {
+    padding: 178px 124px 56px;
   }
 
   &__content {
@@ -109,6 +109,6 @@
 
   &__descrip {
     margin: 8px 0 0;
-    color: #7f8096;
+    color: $text-secondary-color;
   }
 }

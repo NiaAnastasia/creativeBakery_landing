@@ -5,7 +5,7 @@
 
   padding: 56px 16px;
 
-  background-color: #1c1a26;
+  background-color: $main-text-color;
 
   @include on-tablet {
     grid-template-columns: repeat(1, 1fr);
@@ -47,7 +47,6 @@
     cursor: pointer;
     transform-origin: left center;
     display: flex;
-    transition: transform 0.3s ease;
 
     @include hover(transform, scale(1.2));
   }
@@ -95,7 +94,7 @@
   @include hover(transform, scale(1.2));
 
   &-gray {
-    color: #7f8096;
+    color: $text-secondary-color;
   }
 
   &-uppercase {
@@ -135,13 +134,13 @@
     width: 24px;
     height: 24px;
 
-    transition: filter 0.3s ease;
+    transition: filter $transition-duration $transition-easing;
   }
 
   &__link-footer {
     display: inline-block;
     outline: none;
-    transition: transform 0.3s ease;
+    transition: transform $transition-duration $transition-easing;
 
     &:hover,
     &:focus {
@@ -158,7 +157,7 @@
   margin: 0;
   padding: 40px 0 0;
   font-size: 16px;
-  color: #7f8096;
+  color: $text-secondary-color;
 
   @include on-mid-laptop {
     padding: 0;
