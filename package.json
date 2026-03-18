@@ -11,8 +11,7 @@
     "deploy": "mate-scripts deploy",
     "update": "mate-scripts update",
     "postinstall": "npm run update",
-    "test": "npm run lint && npm run test:only",
-    "predeploy": "npm run build -- --public-url /creativeBakery_landing/"
+    "test": "npm run lint && npm run test:only"
   },
   "keywords": [],
   "author": "Mate Academy",
