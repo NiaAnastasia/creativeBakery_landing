@@ -4,8 +4,7 @@ A responsive landing page for a creative bakery, built pixel-perfect from a Figm
 The project showcases a modern bakery website with product listings and adaptive layout for all screen sizes.
 
 ## Demo
-🔗 [Live Preview](https://NiaAnastasia.github.io/layout_creativeBakery/)
-
+🔗 [Live Preview](https://niaanastasia.github.io/creativeBakery_landing/)
 ## Design Reference
 🖼 [Figma Mockup](https://www.figma.com/file/dY3izAm0Vspsmra4lQWQIP/Bakerlab-FE-students?node-id=0%3A1)
 
