@@ -11,7 +11,8 @@
     "deploy": "mate-scripts deploy",
     "update": "mate-scripts update",
     "postinstall": "npm run update",
-    "test": "npm run lint && npm run test:only"
+    "test": "npm run lint && npm run test:only",
+    "predeploy": "npm run build -- --public-url /creativeBakery_landing/"
   },
   "keywords": [],
   "author": "Mate Academy",
@@ -37,11 +38,6 @@
     "projectType": "layout",
     "linters": {
       "bem": false
-    }
-  },
-  "targets": {
-    "default": {
-      "publicUrl": "/creativeBakery_landing/"
     }
   }
 }
